@@ -1,0 +1,127 @@
+.section-services {
+  margin-bottom: 115px;
+}
+
+.services-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 76px;
+
+  @media screen and (max-width: 852px) {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+}
+
+.info-title {
+  font-style: normal;
+  font-weight: $bold;
+  font-size: $lg-font;
+  line-height: 25px;
+  letter-spacing: 2.30625px;
+  color: $grey-text;
+}
+
+.info-description {
+  display: flex;
+  gap: 30px;
+
+  @media screen and (max-width: 646px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.description-text {
+  max-width: 405px;
+  font-style: normal;
+  font-weight: $regular;
+  font-size: $xs-font;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: $grey-text;
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
+}
+
+.description-button {
+  padding: 11px 29px;
+  border: none;
+  background-color: $light-blue;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: $sm-font;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: $general-white;
+
+  @media screen and (max-width: 630px) {
+    font-size: $xs-font;
+  }
+}
+
+.services-offers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 27px;
+
+  @media screen and (max-width: 968px) {
+    justify-content: center;
+  }
+}
+
+.offers-card {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  padding: 38px 22px;
+  border: 1px solid $border-color;
+
+  @media screen and (max-width: 420px) {
+   padding: 25px 10px;
+  }
+}
+
+.card-image {
+  width: 65px;
+
+  @media screen and (max-width: 646px) {
+   width: 45px;
+  }
+}
+
+.card-title {
+  margin: 25px 0 13px;
+  font-style: normal;
+  font-weight: $bold;
+  font-size: $md-font;
+  line-height: 24px;
+  letter-spacing: 0.426667px;
+  color: $grey-text;
+
+  @media screen and (max-width: 646px) {
+    font-size: $sm-font;
+    margin: 20px 0 7px;
+  }
+}
+
+.card-description {
+  font-style: normal;
+  font-weight: $regular;
+  font-size: $sm-font;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  color: $grey-text;
+
+  @media screen and (max-width: 646px) {
+    font-size: $xs-font;
+  }
+}

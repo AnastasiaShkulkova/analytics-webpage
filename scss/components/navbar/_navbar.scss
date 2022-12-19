@@ -1,0 +1,46 @@
+.navbar {
+  border-bottom: 1px solid $border-color;
+  padding: 24px 0;
+  margin: 0 auto;
+  position: sticky;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-tools {
+  display: flex;
+  gap: 42px;
+
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+}
+
+.item-link {
+  font-style: normal;
+  font-weight: $semi-bold;
+  font-size: $sm-font;
+  line-height: 16px;
+  letter-spacing: 1.09091px;
+  color: $grey-text;
+  transition: all 0.4s ease-out;
+
+  &:hover {
+    color: $light-blue;
+  }
+}
+
+.navbar-menu {
+  display: none;
+
+  .menu-icon {
+     width: 25px;
+  }
+
+  @media screen and (max-width: 620px) {
+    display: block;
+  }
+}
